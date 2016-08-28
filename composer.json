@@ -43,6 +43,9 @@
         "ext-gd":"*"
     },
     "scripts": {
+        "post-install-cmd": [
+          "chmod -R 0755 ."
+        ],
         "post-update-cmd": [
           "chmod -R 0755 ."
         ]
