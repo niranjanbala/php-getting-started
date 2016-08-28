@@ -40,7 +40,7 @@
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
         "flarum/flarum-ext-tags": "^0.1.0",
-        "gd":"*"
+        "ext-gd":"*"
     },
     "require-dev": {
         "franzl/studio": "^0.10.0"

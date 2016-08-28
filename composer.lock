@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc68977a9b8094c6bfb1e193d948a7ec",
-    "content-hash": "e6a06883268aa19e14a3e6630c8906e6",
+    "hash": "87135b4262a195864e4d681184c512b7",
+    "content-hash": "688c5e472e2599e19608f7e99c7d4697",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -4435,6 +4435,8 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-gd": "*"
+    },
     "platform-dev": []
 }
