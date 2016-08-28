@@ -42,6 +42,11 @@
         "flarum/flarum-ext-tags": "^0.1.0",
         "ext-gd":"*"
     },
+    "scripts": {
+        "post-update-cmd": [
+          "chmod -R 0755 ."
+        ]
+    },
     "require-dev": {
         "franzl/studio": "^0.10.0"
     },
