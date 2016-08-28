@@ -44,10 +44,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-          "chmod -R 0755 ."
+          "chmod -R 0775 ."
         ],
         "post-update-cmd": [
-          "chmod -R 0755 ."
+          "chmod -R 0775 ."
         ]
     },
     "require-dev": {
